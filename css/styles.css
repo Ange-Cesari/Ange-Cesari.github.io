@@ -1,0 +1,55 @@
+/* Appliquer un thème sombre à tout le document */
+body {
+	background-color: #1f1f1f;
+	color: #f2f2f2;
+}
+
+/* Modifier les couleurs du formulaire */
+form {
+	background-color: #2d2d2d;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+label {
+	color: #f2f2f2;
+}
+
+input[type="checkbox"] {
+	background-color: #2d2d2d;
+	border-color: #f2f2f2;
+}
+
+input[type="checkbox"]:checked::before {
+	background-color: #f2f2f2;
+}
+
+input[type="number"] {
+	background-color: #2d2d2d;
+	color: #f2f2f2;
+	border-color: #f2f2f2;
+}
+
+/* Modifier les couleurs du bouton */
+button[type="submit"] {
+	background-color: #f2f2f2;
+	color: #1f1f1f;
+	border-color: #f2f2f2;
+	font-weight: bold;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+	background-color: #1f1f1f;
+	color: #f2f2f2;
+}
+
+/* Modifier les couleurs des messages */
+.message {
+	background-color: #1f1f1f;
+	color: #f2f2f2;
+	padding: 10px;
+	margin-top: 20px;
+	border-radius: 5px;
+}

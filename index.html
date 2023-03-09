@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Configurateur</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<h1>Configurator</h1>
+	<form>
+		<h2>Unique options</h2>
+		<label><input type="checkbox" name="monitoring"> Monitoring</label><br>
+		<label><input type="checkbox" name="database-backups"> Database Backups</label><br>
+		<label><input type="checkbox" name="access-control"> Access Control</label><br>
+		<label><input type="checkbox" name="white-labeling"> WhiteLabeling</label><br>
+		<label><input type="checkbox" name="priority-support"> Priority Support</label><br>
+
+		<h2>Options incrémentales</h2>
+		<label>Projects: <input type="number" name="projects" min="1" max="1000" value="1"></label><br>
+		<label>Deployments: <input type="number" name="deployments" min="20" max="1000" value="20" step="5"></label><br>
+		<label>Licenses: <input type="number" name="licenses" min="0" max="1000" value="0"></label><br>
+		<label>Users: <input type="number" name="users" min="1" max="1000" value="1"></label><br>
+
+		<h2>Prix mensuel</h2>
+		<h2 id="price-monthly">$0</h2>
+
+	</form>
+
+	<script src="script.js"></script>
+</body>
+</html>
